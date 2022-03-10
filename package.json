@@ -1,0 +1,41 @@
+{
+  "name": "gulp-study",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development enviroment",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHeeg/gulp-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHeeg/gulp-study/issues"
+  },
+  "homepage": "https://github.com/JHeeg/gulp-study#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "babelify": "^10.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gifsicle": "^3.0.4",
+    "gift": "^0.10.2",
+    "gulp-image": "^6.2.1",
+    "uglifyify": "^5.0.2"
+  }
+}
